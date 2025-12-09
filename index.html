@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Tast Tracker</title>
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+<body>
+    <div class="app-container">
+        <h1>Smart Tast Tracker</h1>
+        <button id="themeToggle">🌙</button>
+        <div class="input-section">
+            <input type="text" name="task" id="taskInput" placeholder="Enter task...">
+            <button id="addBtn">Add</button>
+        </div>
+        <div class="filters">
+            <button data-filter = "all">All</button>
+            <button data-filter="completed">Completed</button>
+            <button data-filter="pending">Pending</button>
+        </div>
+        <ul id="taskList"></ul>
+        <p id="taskCount"></p>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
