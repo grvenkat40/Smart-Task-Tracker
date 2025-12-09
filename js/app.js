@@ -115,6 +115,5 @@ document.addEventListener("DOMContentLoaded", () => {
         localStorage.setItem("theme", themes)
     })
 
-
     loadTask();
 });
